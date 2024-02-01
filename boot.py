@@ -3,7 +3,7 @@ import time
 
 led = Pin(2, Pin.OUT)
 while True:
-    led.high()
+    led.on()
     time.sleep(0.5)
-    led.low()
+    led.off()
     time.sleep(0.5)
